@@ -1,0 +1,72 @@
+Configuration	time14and16testing
+STM32CubeMX 	5.4.0
+Date	12/01/2020
+MCU	STM32F030K6Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+TIM16	Enable_Timer	TIM16_VS_ClockSourceINT	VP_TIM16_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA3
+USART1	Asynchronous	USART1_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0-OSC_IN	RCC_OSC_IN	
+3	PF1-OSC_OUT	RCC_OSC_OUT	
+8	PA2	USART1_TX	
+9	PA3	USART1_RX	
+22	PA12	GPIO_Output	ledB
+26	PB3	GPIO_Output	ledY
+27	PB4	GPIO_Output	ledG
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+TIM16	Enable_Timer	TIM16_VS_ClockSourceINT	VP_TIM16_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA3
+USART1	Asynchronous	USART1_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PF0-OSC_IN	RCC_OSC_IN	
+3	PF1-OSC_OUT	RCC_OSC_OUT	
+8	PA2	USART1_TX	
+9	PA3	USART1_RX	
+22	PA12	GPIO_Output	ledB
+26	PB3	GPIO_Output	ledY
+27	PB4	GPIO_Output	ledG
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : time14and16testing
+Project Folder : D:\Desktop from D drive\ARM codes\time14and16testing
+Toolchain / IDE : MDK-ARM V5.27
+Firmware Package Name and Version : STM32Cube FW_F0 V1.11.2
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
